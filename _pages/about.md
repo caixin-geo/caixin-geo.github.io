@@ -9,7 +9,7 @@ redirect_from:
 Here is Xin Cai (Geoffey, 蔡鑫).
 
 I am a senior undergrad majoring in HCI and Serious Game Design at Shanghai JiaoTong University. I am very fortunate to be advised by [Prof.Gu](https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/professor/detail/5ec6b6d1c4b4b304afeb5737)
-and [A.P.Liu] (https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/5ecf73a0ead9bc12b4a46df7).
+and [A.P.Liu](https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/5ecf73a0ead9bc12b4a46df7).
 
 I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
 
