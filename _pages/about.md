@@ -12,17 +12,8 @@ I am a senior undergrad majoring in HCI and Serious Game Design at Shanghai Jiao
 and [A.P.Liu](https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/5ecf73a0ead9bc12b4a46df7) of [Interaction Design Institute](https://designschool.sjtu.edu.cn/research/institution/detail/650aae90614c35f70ea1c698).
 
 
+If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - caixin98in[at]163[dot]com
 
-I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
-
-
- at Fuzhou University and Maynooth University (Combined degrees). Currently, I serve as a research assistant at the IIoT-Lab, advised by Prof. Zhezhuang Xu and Dr. Meng Yuan. I also spent a lovely summer research program with Prof. Pietro Liò at Cambridge University. Recently, I have been selected as an AAAI UC Scholar.
-
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - hanlin[dot]cai[at]ieee[dot]org
-
-I'm a third year undergraduate student from [School of EECS](https://eecs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). My research interest includes computer vision, computer graphics, machine learning, and computational photography.
-                      
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
