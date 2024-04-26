@@ -12,7 +12,7 @@ I am a senior undergrad majoring in **HCI** and **Serious Game Design** at Shang
 and [A.P.Liu](https://designschool.sjtu.edu.cn/teacher/31104c124abec4f853ad19c8530ab586/viceprofessor/detail/5ecf73a0ead9bc12b4a46df7) of [Interaction Design Institute](https://designschool.sjtu.edu.cn/research/institution/detail/650aae90614c35f70ea1c698).
 
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - caixin98in[at]163[dot]com
+If you are interested in any aspect of me, I would love to chat and collaborate, please email me at <caixin98in@163.com>
 
 
 A data-driven personal website
