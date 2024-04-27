@@ -80,26 +80,37 @@
       <!-- Font Awesome icons / Social media -->
       {% if author.wechat %}
         <li>
-          <a href="#" data-toggle="modal" data-target="#wechatModal">你的名字</a>
-          <!-- 模态框 -->
-          <div class="modal fade" id="wechatModal" tabindex="-1" role="dialog" aria-labelledby="wechatModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="wechatModalLabel">我的微信二维码</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <!-- 插入你的微信二维码图片 -->
-                  <img src="../images/wechat_QR.jpg" alt="我的微信二维码">
-                </div>
-              </div>
+          <a href="https://bsky.app/profile/{{ author.wechat }}"><i class="fab fa-fw fa-wechat icon-pad-right" aria-hidden="true"></i>Wechat</a>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <img src="../images/wechat_QR.jpg" alt="Placeholder Image">
             </div>
           </div>
-        </li> 
-        <!-- <li><a href="https://bsky.app/profile/{{ author.wechat }}"><i class="fab fa-fw fa-wechat icon-pad-right" aria-hidden="true"></i>Wechat</a></li> -->
+          <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the link that opens the modal
+            var link = document.getElementById("openModal");
+            
+            // When the user clicks the link, open the modal 
+            link.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            </script>
+        </li>
+
       {% endif %}
       {% if author.bluesky %}
         <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
