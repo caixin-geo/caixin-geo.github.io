@@ -14,6 +14,35 @@
     	<script src="leaflet_dist/leaflet.markercluster-src.js"></script>
     	<script src="org-locations.js"></script>
 
+		<style>
+			/* CSS for modal */
+			.modal {
+			  display: none; /* Hidden by default */
+			  position: fixed; /* Stay in place */
+			  z-index: 1; /* Sit on top */
+			  left: 0;
+			  top: 0;
+			  width: 100%; /* Full width */
+			  height: 100%; /* Full height */
+			  overflow: auto; /* Enable scroll if needed */
+			  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+			}
+		
+			.modal-content {
+			  margin: auto;
+			  display: block;
+			  width: 80%;
+			  max-width: 700px;
+			}
+		
+			/* Style the image inside the modal */
+			.modal-content img {
+			  width: 100%;
+			  height: auto;
+			}
+		  </style>
+
+
     </head>
     <body>
 
