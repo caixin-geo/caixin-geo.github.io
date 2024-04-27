@@ -68,7 +68,11 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
-  text-decoration-line: overline;
+}
+
+a:link,a:visited{
+  font-style: italic;
+  text-decoration-line: underline;
   text-decoration-style: dashed;
 }
 
