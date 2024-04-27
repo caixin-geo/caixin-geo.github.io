@@ -20,30 +20,12 @@
 <body>
 
 <!-- 点击链接时弹出图片 -->
-<a href="#" id="popup-link">点击这里查看图片</a>
+<a href="#popup-img" class="popup-link">点击这里查看图片</a>
 
 <!-- 弹出的图片内容 -->
 <div id="popup-img" class="popup-img">
-  <img src="path/to/image.jpg" alt="弹出图片" style="max-width: 80%; max-height: 80%;">
+  <img src="images/wechat_QR.jpg" alt="弹出图片" style="max-width: 80%; max-height: 80%;">
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var popupLink = document.getElementById('popup-link');
-  var popupImg = document.getElementById('popup-img');
-
-  // 点击链接时显示图片
-  popupLink.addEventListener('click', function(e) {
-    e.preventDefault(); // 阻止链接默认行为
-    popupImg.style.display = 'block';
-  });
-
-  // 点击图片时隐藏图片
-  popupImg.addEventListener('click', function() {
-    popupImg.style.display = 'none';
-  });
-});
-</script>
 
 </body>
 </html>
