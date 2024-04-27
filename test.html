@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Linked Image Popup</title>
-<style>
-  /* 隐藏弹出的图片 */
-  #popup-image {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 80%;
-    max-height: 80%;
-    z-index: 9999;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Example</title>
+  <style>
+    /* CSS for modal */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    }
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    /* Style the image inside the modal */
+    .modal-content img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
 
-<!-- 超链接 -->
-<li>
-  <a href="#" id="trigger">点击这里查看图片</a>
-</li>
+<!-- Link to open the modal -->
+<a href="#" id="openModal">点击这里查看图片</a>
 
-  <!-- 弹出的图片 -->
-  <img src="/images/wechat_QR.png" alt="Popup Image" id="popup-image">
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="https://via.placeholder.com/600" alt="Placeholder Image">
+  </div>
+</div>
 
-  <script>
-    // 获取超链接元素和弹出图片元素
-    const trigger = document.getElementById('trigger');
-    const popupImage = document.getElementById('popup-image');
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
 
-    // 当超链接被点击时
-    trigger.addEventListener('click', function(event) {
-      // 阻止默认行为
-      event.preventDefault();
-      // 显示弹出图片
-      popupImage.style.display = 'block';
-    });
+// Get the link that opens the modal
+var link = document.getElementById("openModal");
 
-    // 当弹出图片被点击时，隐藏弹出图片
-    popupImage.addEventListener('click', function() {
-      this.style.display = 'none';
-    });
-  </script>
+// When the user clicks the link, open the modal 
+link.onclick = function() {
+  modal.style.display = "block";
+}
 
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
 
 </body>
 </html>
