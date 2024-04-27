@@ -31,6 +31,10 @@
     }
   }
 
+  .rounded-img {
+    border-radius: 10px; /* 设置圆角半径 */
+  }
+
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
     padding-right: 0;
