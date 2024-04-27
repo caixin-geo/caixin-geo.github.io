@@ -79,6 +79,33 @@
 
       <!-- Font Awesome icons / Social media -->
       {% if author.wechat %}
+        <style>
+          /* CSS for modal */
+          .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+          }
+      
+          .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+          }
+      
+          /* Style the image inside the modal */
+          .modal-content img {
+            width: 100%;
+            height: auto;
+          }
+        </style>
         <li>
           <a href="#" id="openModal"><i class="fab fa-fw fa-wechat icon-pad-right" aria-hidden="true"></i>Wechat</a>
           <!-- The Modal -->
@@ -86,7 +113,7 @@
             <!-- Modal content -->
             <div class="modal-content">
               <span class="close">&times;</span>
-              <img src="../images/wechat_QR.jpg" alt="Placeholder Image">
+              <img src="https://via.placeholder.com/600" alt="Placeholder Image">
             </div>
           </div>
           <script>
