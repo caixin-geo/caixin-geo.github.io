@@ -68,6 +68,8 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
+  font-style: italic;
+  text-decoration: none;
 }
 
 /* Apply focus state */
