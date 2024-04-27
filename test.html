@@ -3,67 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Popup Image with Rounded Corners</title>
+<title>Linked Image Popup</title>
 <style>
-/* 设置图片样式 */
-.popup-img {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 10px; /* 设置圆角 */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* 设置阴影 */
-}
-
-/* 遮罩层样式 */
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+  /* 隐藏弹出的图片 */
+  #popup-image {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+    z-index: 9999;
+  }
 </style>
 </head>
 <body>
 
-<!-- 点击链接时弹出图片 -->
-<a href="#" id="popup-link">点击这里查看图片</a>
+<!-- 超链接 -->
+<a href="#" id="trigger">点击这里查看图片</a>
 
-<!-- 弹出的图片内容 -->
-<div id="popup-img" class="popup-img">
-  <img src="wechat_QR.jpeg" alt="弹出图片" style="max-width: 80%; max-height: 80%;">
-</div>
-
-<!-- 遮罩层 -->
-<div class="overlay"></div>
+<!-- 弹出的图片 -->
+<img src="/images/wechat_QR.png" alt="Popup Image" id="popup-image">
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var popupLink = document.getElementById('popup-link');
-  var popupImg = document.getElementById('popup-img');
-  var overlay = document.querySelector('.overlay');
+  // 获取超链接元素和弹出图片元素
+  const trigger = document.getElementById('trigger');
+  const popupImage = document.getElementById('popup-image');
 
-  // 点击链接时显示图片和遮罩层
-  popupLink.addEventListener('click', function(e) {
-    e.preventDefault(); // 阻止链接默认行为
-    popupImg.style.display = 'block';
-    overlay.style.display = 'block';
+  // 当超链接被点击时
+  trigger.addEventListener('click', function(event) {
+    // 阻止默认行为
+    event.preventDefault();
+    // 显示弹出图片
+    popupImage.style.display = 'block';
   });
 
-  // 点击遮罩层或图片时隐藏图片和遮罩层
-  overlay.addEventListener('click', hidePopupImg);
-  popupImg.addEventListener('click', hidePopupImg);
-
-  // 隐藏图片和遮罩层的函数
-  function hidePopupImg() {
-    popupImg.style.display = 'none';
-    overlay.style.display = 'none';
-  }
-});
+  // 当弹出图片被点击时，隐藏弹出图片
+  popupImage.addEventListener('click', function() {
+    this.style.display = 'none';
+  });
 </script>
 
 </body>
