@@ -80,31 +80,7 @@
       <!-- Font Awesome icons / Social media -->
       {% if author.wechat %}
         <li>
-          <!-- <a href="#" id="trigger"><i class="fab fa-fw fa-wechat icon-pad-right" aria-hidden="true"></i>Wechat</a> -->
-          <!-- 超链接 -->
-          <a href="#" id="trigger">点击这里查看图片</a>
-
-          <!-- 弹出的图片 -->
-          <img src="/images/wechat_QR.png" alt="Popup Image" id="popup-image" class="popup-image">
-
-          <script>
-            // 获取超链接元素和弹出图片元素
-            const trigger = document.getElementById('trigger');
-            const popupImage = document.getElementById('popup-image');
-
-            // 当超链接被点击时
-            trigger.addEventListener('click', function(event) {
-              // 阻止默认行为
-              event.preventDefault();
-              // 显示弹出图片
-              popupImage.style.display = 'block';
-            });
-
-            // 当弹出图片被点击时，隐藏弹出图片
-            popupImage.addEventListener('click', function() {
-              this.style.display = 'none';
-            });
-          </script>
+          <a href="../images/wechat_QR.png"><i class="fab fa-fw fa-wechat icon-pad-right" aria-hidden="true"></i>Wechat</a>
         </li>
       {% endif %}
       {% if author.bluesky %}
