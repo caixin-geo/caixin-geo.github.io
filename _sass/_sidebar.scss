@@ -31,10 +31,6 @@
     }
   }
 
-  .rounded-img {
-    border-radius: 100px; /* 设置圆角半径 */
-  }
-
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
     padding-right: 0;
@@ -102,6 +98,10 @@
       border: 1px solid $border-color;
     }
   }
+}
+
+.rounded-img {
+  border-radius: 8%; /* 设置圆角半径 */
 }
 
 .author__content {
