@@ -32,7 +32,7 @@
   }
 
   .rounded-img {
-    border-radius: 10px; /* 设置圆角半径 */
+    border-radius: 100px; /* 设置圆角半径 */
   }
 
   @include breakpoint($x-large) {
