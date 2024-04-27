@@ -69,8 +69,8 @@ audio:not([controls]) {
 a {
   color: $link-color;
   font-style: italic;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
 }
 
 /* Apply focus state */
