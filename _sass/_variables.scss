@@ -77,7 +77,7 @@ $info-color                 : #52adc8;
 /* brands */
 $behance-color              : #1769FF;
 $bluesky-color              : #1184fe;
-$wechat-color               : #7a8288;
+$wechat-color               : $dark-gray;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
@@ -103,7 +103,7 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : #7a8288;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
