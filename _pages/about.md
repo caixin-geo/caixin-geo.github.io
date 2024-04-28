@@ -22,10 +22,10 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 # Academic Background
 
-- **Sept. 2020- Mar. 2024**:
-  Shanghai JiaoTong University (Master, Interaction Design)
-- **Sept. 2016- Jun. 2020**:
-  Shanghai JiaoTong University (Bachelor, Mechanical Engineering)
+- Sept. 2020- Mar. 2024:
+  Master in **Interaction Design**, School of Design, Shanghai JiaoTong University
+- Sept. 2016- Jun. 2020:
+  Bachelor in **Mechanical Engineering**, School of Mechanical Engineering, Shanghai JiaoTong University
 
 # Awards and Scholars
 
