@@ -20,3 +20,6 @@ main:
 
   - title: "Hobbies"
     url: /hobbies/
+
+  # - title: "Guide"
+  #   url: /markdown/
