@@ -1,11 +1,15 @@
 ---
 permalink: /
-title: "About me"
+title: "Current"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+
+I am looking for a Ph.D position or RA chance in HCI.
+
+# About me
 
 Here is **Xin Cai** (**Geoffery**, **蔡鑫**).
 
@@ -22,5 +26,17 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
   Shanghai JiaoTong University (Master, Interaction Design)
 - **Sept. 2016- Jun. 2020**:
   Shanghai JiaoTong University (Bachelor, Mechanical Engineering)
+
+# Awards and Scholars
+
+- Mar. 2024: **iF Design Award** (Communication/Apps/Software), iF Industrie Forum Design
+- Sep. 2022: First-Class Graduate Study Scholarship(**Top 10%**)
+- Jun. 2022: Second Prize in China Collegiate Computing Contest Mobile Application Innovation Contest, Apple Inc.&ZJU
+- Oct. 2021: **Red Dot Award of Brands & Communication Design**, Nordrhein- Westfalen eV
+- Jul. 2021: **Golden Award in Disney Imaginations Shanghai**, Shanghai Disney Resort
+- Jun. 2021: Second Prize in China Collegiate Computing Contest Mobile Application Innovation Contest, Apple Inc.&ZJU
+- Sep. 2021: First-Class Graduate Study Scholarship(**Top 10%**)
+- Jun. 2019: Moral Education Scholarship of Cyrus Tang Foundation
+- Jun. 2018: Moral Education Scholarship of Cyrus Tang Foundation
 
 ---
