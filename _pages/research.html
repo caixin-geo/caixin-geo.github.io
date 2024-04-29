@@ -7,13 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-<p class="archive__subtitle">Projects</p>
+<p class="archive__subtitle"><strong>Projects</strong></p>
 
 {% for post in site.projects %}
   {% include archive-single.html %}
 {% endfor %}
 
-<p class="archive__subtitle">ublications</p>
+<br>
+<p class="archive__subtitle"><strong>Publications</strong></p>
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
