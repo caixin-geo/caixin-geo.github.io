@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "Current"
+title: "XinCai"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+
+# Current
 
 I am looking for a Ph.D position or RA chance in HCI.
 
