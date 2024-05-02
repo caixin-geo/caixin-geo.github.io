@@ -80,5 +80,17 @@
       <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
     {% endif %}
 
+    {% if post.collection=='publications'}
+      {% if post.authors %}
+        <p>{{ post.agency }}</p>
+      {% endif %}
+      {% if post.agency %}
+        <p>{{ post.agency }}</p>
+      {% endif %}
+      {% if post.notes %}
+        <p>{{ post.notes }}</p>
+      {% endif %}
+    {% endif %}
+
   </article>
 </div>
