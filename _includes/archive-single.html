@@ -45,8 +45,32 @@
         <!-- 根据文章所属的集合不同，显示不同的元数据 -->
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        
+          {% elsif post.collection == 'publications' %}
+          {% if post.venue %}
+           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+           {% endif %}
+              <!-- 根据文章的引用和链接情况显示不同的内容 -->
+          {% if post.citation and post.paperurl %}
+            <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
+          {% elsif post.citation %}
+            <p>Recommended citation: {{ post.citation }} </p>
+          {% elsif post.paperurl %}
+            <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
+          {% endif %}
+
+          {% if post.collection=='publications' %}
+            {% if post.authors %}
+              <p>{{ post.agency }}</p>
+            {% endif %}
+            {% if post.agency %}
+              <p>{{ post.agency }}</p>
+            {% endif %}
+            {% if post.notes %}
+              <p>{{ post.notes }}</p>
+            {% endif %}
+          {% endif %}
+
         {% elsif post.collection == 'projects' %}
           <p>{{post.institution}}, {{post.period}}</p>
         {% elsif post.date %}
@@ -71,26 +95,6 @@
       {% endif %}
     {% endif %}
     
-    <!-- 根据文章的引用和链接情况显示不同的内容 -->
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
-    {% endif %}
-
-    {% if post.collection=='publications' %}
-      {% if post.authors %}
-        <p>{{ post.agency }}</p>
-      {% endif %}
-      {% if post.agency %}
-        <p>{{ post.agency }}</p>
-      {% endif %}
-      {% if post.notes %}
-        <p>{{ post.notes }}</p>
-      {% endif %}
-    {% endif %}
 
   </article>
 </div>
