@@ -72,7 +72,7 @@
           {% endif %}
 
         {% elsif post.collection == 'projects' %}
-          <p>{{post.institution}}, {{post.period}}</p>
+          <p style="text-align:left;margin-top: 0.5em;font-size: 0.8em;">{{post.institution}}<span style="float:right;font-style: italic;">{{post.period}}</span></p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
