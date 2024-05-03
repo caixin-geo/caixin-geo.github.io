@@ -13,7 +13,6 @@ collection: projects
         <br>&nbsp;&nbsp;Tactile feedback, through direct contact with the skin, provides effective information without occupying screen space or causing disturbances in silent environments. Based on Wickens' Multiple Resource Theory, integrating tactile channels into multisensory displays can reduce sensory overload risks associated with single-sensory tasks, thereby decreasing interaction complexity and facilitating task completion. Further, enriched vibratory tactile feedback, combined with visual and auditory feedback, significantly enhances users' perception and awareness of interaction behaviors and environmental responses, increasing the immersion of the experience. Although current mobile devices predominantly use visual or auditory feedback, the demand for multisensory experiences is growing, prompting manufacturers to focus more on tactile feedback within multisensory experiences. There remains a gap between existing experiences and user expectations across various usage scenarios.
     </p>
 </div>
-    <br>
 
 <div>
     <p><br>
