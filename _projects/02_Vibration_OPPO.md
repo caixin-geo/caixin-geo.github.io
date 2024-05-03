@@ -10,16 +10,19 @@ collection: projects
 <div>
 <p>
     <strong>Research Background</strong>
+    <br>
     Tactile feedback, through direct contact with the skin, provides effective information without occupying screen space or causing disturbances in silent environments. Based on Wickens' Multiple Resource Theory, integrating tactile channels into multisensory displays can reduce sensory overload risks associated with single-sensory tasks, thereby decreasing interaction complexity and facilitating task completion. Further, enriched vibratory tactile feedback, combined with visual and auditory feedback, significantly enhances users' perception and awareness of interaction behaviors and environmental responses, increasing the immersion of the experience. Although current mobile devices predominantly use visual or auditory feedback, the demand for multisensory experiences is growing, prompting manufacturers to focus more on tactile feedback within multisensory experiences. There remains a gap between existing experiences and user expectations across various usage scenarios.
     <br>
     <strong>Research Objectives</strong>
+    <br>
     This project focuses on scenarios frequently used and highly mentioned by users, such as time selectors, camera zoom, dial pads, input methods, and notification alerts, aiming to define the synergistic relationships between visual, auditory, and tactile senses. The goal is to develop models for audio-tactile and audio-visual coordination, as well as key variable thresholds for multisensory design, providing a scientific basis for design. Additionally, user testing will be conducted in typical scenarios with different parameter combinations to formulate specific design schemes and recommendations. The research will focus on:
     <br>
-    Match: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.
-    Variability: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.
-    Expressiveness: Analyzing various notification messages in different usage scenarios to identify design parameters related to vibration pattern recognition and user perception intensity levels, auditory and vibration thresholds.
+    <li>Compatibility: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.</li>
+    <li>Variability: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
+    <li>Variability: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
     <br>
     <strong>Methods and Materials</strong>
+    <br>
     Platform Setup: Establish platforms for audio and vibration data collection.
     Data Collection: Gather audio and vibration data through design workshops and reverse engineering competitive models.
     Data Processing: Conduct data preprocessing and feature extraction to build datasets.
@@ -27,8 +30,11 @@ collection: projects
     Psychophysical Experiments: Design and conduct experiments on compatibility, variability, and expressiveness.
     Data Analysis: Analyze data using Python and other analytical tools, including exploratory, correlational, and significance analyses.
     <strong>Main Outcomes</strong>
+    <br>
     The project has produced analyses of user preferences in mobile interaction scenarios, offering qualitative and quantitative recommendations for optimizing multisensory feedback and ergonomics conclusions. These findings have been applied to the latest generation of the ColorOS system.
+    <br>
     <strong>My Contribution</strong>
+    <br>
     <li>Participated in project planning, literature review, technical investigation, user research (interviews, questionnaires)</li>
     <li>Set up audio-vibration experiment platform, and collected data from representative mobile models</li>
     <li>Developed experimental interaction prototypes and audio-vibration mapping program, design and conducted human factor experiments</li>
