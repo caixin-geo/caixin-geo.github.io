@@ -13,25 +13,29 @@ collection: projects
     <br>
     Tactile feedback, through direct contact with the skin, provides effective information without occupying screen space or causing disturbances in silent environments. Based on Wickens' Multiple Resource Theory, integrating tactile channels into multisensory displays can reduce sensory overload risks associated with single-sensory tasks, thereby decreasing interaction complexity and facilitating task completion. Further, enriched vibratory tactile feedback, combined with visual and auditory feedback, significantly enhances users' perception and awareness of interaction behaviors and environmental responses, increasing the immersion of the experience. Although current mobile devices predominantly use visual or auditory feedback, the demand for multisensory experiences is growing, prompting manufacturers to focus more on tactile feedback within multisensory experiences. There remains a gap between existing experiences and user expectations across various usage scenarios.
     <br>
+    <br>
     <strong>Research Objectives</strong>
     <br>
     This project focuses on scenarios frequently used and highly mentioned by users, such as time selectors, camera zoom, dial pads, input methods, and notification alerts, aiming to define the synergistic relationships between visual, auditory, and tactile senses. The goal is to develop models for audio-tactile and audio-visual coordination, as well as key variable thresholds for multisensory design, providing a scientific basis for design. Additionally, user testing will be conducted in typical scenarios with different parameter combinations to formulate specific design schemes and recommendations. The research will focus on:
-    <br>
     <li>Compatibility: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.</li>
     <li>Variability: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
-    <li>Variability: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
+    <li>Expressiveness: Analyzing various notification messages in different usage scenarios to identify design parameters related to vibration pattern recognition and user perception intensity levels, auditory and vibration thresholds.</li>
+    <br>
     <br>
     <strong>Methods and Materials</strong>
     <br>
-    Platform Setup: Establish platforms for audio and vibration data collection.
-    Data Collection: Gather audio and vibration data through design workshops and reverse engineering competitive models.
-    Data Processing: Conduct data preprocessing and feature extraction to build datasets.
-    Subjective Evaluation: Define subjective evaluation dimensions through expert interviews, literature review, and PCA methods.
-    Psychophysical Experiments: Design and conduct experiments on compatibility, variability, and expressiveness.
-    Data Analysis: Analyze data using Python and other analytical tools, including exploratory, correlational, and significance analyses.
+    <li>Platform Setup: Establish platforms for audio and vibration data collection.</li>
+    <li>Data Collection: Gather audio and vibration data through design workshops and reverse engineering competitive models.</li>
+    <li>Data Processing: Conduct data preprocessing and feature extraction to build datasets.</li>
+    <li>Subjective Evaluation: Define subjective evaluation dimensions through expert interviews, literature review, and PCA methods.</li>
+    <li>Psychophysical Experiments: Design and conduct experiments on compatibility, variability, and expressiveness.</li>
+    <li>Data Analysis: Analyze data using Python and other analytical tools, including exploratory, correlational, and significance analyses.</li>
+    <br>
+    <br>
     <strong>Main Outcomes</strong>
     <br>
     The project has produced analyses of user preferences in mobile interaction scenarios, offering qualitative and quantitative recommendations for optimizing multisensory feedback and ergonomics conclusions. These findings have been applied to the latest generation of the ColorOS system.
+    <br>
     <br>
     <strong>My Contribution</strong>
     <br>
@@ -43,14 +47,13 @@ collection: projects
 
 </div>
 
-<!-->
-
+<!--
 brief intro:
 本项目聚焦于优化智能手机中的多感官交互体验，特别是触觉反馈的整合。通过研究视觉、听觉和触觉的协同关系，提升用户交互体验和交互效率。项目针对高频使用场景如时间选择器、相机变焦等，聚焦于匹配性、变化性、表达性三个方面，确定了关键设计变量和阈值。方法包括建立音效和振动采集平台，进行数据采集与处理，以及通过心理物理实验来测试和优化多感官反馈等。这些研究成果已被应用于 ColorOS 系统的最新版本，，为多感官设计提供了重要且有效的科学依据和实际指导。
 “This project focuses on optimizing multisensory interaction experiences in smartphones, particularly the integration of tactile feedback. By exploring the synergistic relationships between visual, auditory, and tactile feedback, the project enhances user interaction experiences and efficiency. It specifically addresses high-frequency usage scenarios such as time selectors and camera zoom, focusing on compatibility, variability, and expressiveness to establish key design variables, thresholds and patterns. Methods include the establishment of audio and vibration data collection platforms, data collection and processing, and the use of psychophysical experiments to test and optimize multisensory feedback. These research findings have been applied to the latest version of the ColorOS system, providing important and effective scientific bases and practical guidance for multisensory design.”
-<-->
+-->
 
-<!-->
+<!--
 
 项目标题：多感官反馈人因实验与模型开发
 
@@ -119,5 +122,4 @@ The project has produced analyses of user preferences in mobile interaction scen
 Conclusions and Impact:
 
 This research provides a scientific basis for multisensory design and advances understanding of user perception integration mechanisms in human-computer interaction. These outcomes are expected to foster more intuitive and immersive user interface designs, particularly in the fields of virtual reality and augmented reality.
-
-<-->
+-->
