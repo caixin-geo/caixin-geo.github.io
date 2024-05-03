@@ -51,7 +51,7 @@ collection: projects
         <li>Set up audio-vibration experiment platform, and collected data from representative mobile models</li>
         <li>Developed experimental interaction prototypes and audio-vibration mapping program, design and conducted human factor experiments</li>
         <li>Visualized and analyzed data, and generated actionable insights, resulting in one CHI paper and one patent</li>  
-</p>
+    </p>
 </div>
 
 <!--
