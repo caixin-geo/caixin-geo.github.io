@@ -17,20 +17,19 @@ collection: projects
     <strong>Research Objectives</strong>
     <br>
     This project focuses on scenarios frequently used and highly mentioned by users, such as time selectors, camera zoom, dial pads, input methods, and notification alerts, aiming to define the synergistic relationships between visual, auditory, and tactile senses. The goal is to develop models for audio-tactile and audio-visual coordination, as well as key variable thresholds for multisensory design, providing a scientific basis for design. Additionally, user testing will be conducted in typical scenarios with different parameter combinations to formulate specific design schemes and recommendations. 
-    <br>The research focuses on:
-    <li>Compatibility: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.</li>
-    <li>Variability: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
-    <li>Expressiveness: Analyzing various notification messages in different usage scenarios to identify design parameters related to vibration pattern recognition and user perception intensity levels, auditory and vibration thresholds.</li>
+    <br>The research focuses on:<li><strong>Compatibility</<strong>>: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.</li>
+    <li><strong>Variability</strong>: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
+    <li><strong>Expressiveness</strong>: Analyzing various notification messages in different usage scenarios to identify design parameters related to vibration pattern recognition and user perception intensity levels, auditory and vibration thresholds.</li>
     <br>
     <br>
     <strong>Methods and Materials</strong>
     <br>
-    <li>Platform Setup: Establish platforms for audio and vibration data collection.</li>
-    <li>Data Collection: Gather audio and vibration data through design workshops and reverse engineering competitive models.</li>
-    <li>Data Processing: Conduct data preprocessing and feature extraction to build datasets.</li>
-    <li>Subjective Evaluation: Define subjective evaluation dimensions through expert interviews, literature review, and PCA methods.</li>
-    <li>Psychophysical Experiments: Design and conduct experiments on compatibility, variability, and expressiveness.</li>
-    <li>Data Analysis: Analyze data using Python and other analytical tools, including exploratory, correlational, and significance analyses.</li>
+    <li><strong>Platform Setup</strong>: Establish platforms for audio and vibration data collection.</li>
+    <li><strong>Data Collection</strong>: Gather audio and vibration data through design workshops and reverse engineering competitive models.</li>
+    <li><strong>Data Processing</strong>: Conduct data preprocessing and feature extraction to build datasets.</li>
+    <li><strong>Subjective Evaluation</strong>: Define subjective evaluation dimensions through expert interviews, literature review, and PCA methods.</li>
+    <li><strong>Psychophysical Experiments</strong>: Design and conduct experiments on compatibility, variability, and expressiveness.</li>
+    <li><strong>Data Analysis</strong>: Analyze data using Python and other analytical tools, including exploratory, correlational, and significance analyses.</li>
     <br>
     <br>
     <strong>Main Outcomes</strong>
