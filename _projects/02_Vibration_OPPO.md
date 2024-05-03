@@ -16,9 +16,9 @@ collection: projects
     <strong>Research Objectives</strong>
     <br>&nbsp;&nbsp;This project focuses on scenarios frequently used and highly mentioned by users, such as time selectors, camera zoom, dial pads, input methods, and notification alerts, aiming to define the synergistic relationships between visual, auditory, and tactile senses. The goal is to develop models for audio-tactile and audio-visual coordination, as well as key variable thresholds for multisensory design, providing a scientific basis for design. Additionally, user testing will be conducted in typical scenarios with different parameter combinations to formulate specific design schemes and recommendations. 
     <br>&nbsp;&nbsp;The research focuses on:
-    <br><li><strong>Compatibility</strong>: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.</li>
-    <li><strong>Variability</strong>: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
-    <li><strong>Expressiveness</strong>: Analyzing various notification messages in different usage scenarios to identify design parameters related to vibration pattern recognition and user perception intensity levels, auditory and vibration thresholds.</li>
+    &nbsp;&nbsp;<li><strong>Compatibility</strong>: Establishing optimal configurations of audio and vibration design variables that match the visual interface; exploring the synergistic effects of sound and vibration to optimize their compatibility; constructing multisensory match models.</li>
+    &nbsp;&nbsp;<li><strong>Variability</strong>: Determining the rules and thresholds for changes in audio and vibration feedback during continuous operations in interactive scenarios.</li>
+    &nbsp;&nbsp;<li><strong>Expressiveness</strong>: Analyzing various notification messages in different usage scenarios to identify design parameters related to vibration pattern recognition and user perception intensity levels, auditory and vibration thresholds.</li>
     <br>
     <br>
     <strong>Methods and Materials</strong>
