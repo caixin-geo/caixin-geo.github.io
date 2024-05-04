@@ -52,6 +52,6 @@ redirect_from:
 <div>
   <h2 class="archive__item-title" itemprop="headline">My Cat</h2>
   <p>She's my stupid little cutie, Pipi.
-  <img src="../images/500x300.png">
+  <img src="../images/hobbies/cat/cat.png>
   </p>
 </div>
