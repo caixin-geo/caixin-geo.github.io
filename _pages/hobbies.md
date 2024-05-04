@@ -41,10 +41,10 @@ redirect_from:
 <br>
 <div> <!-- Bodybuilding -->
   <h2 class="archive__item-title" itemprop="headline">Exercising</h2>
+  <img src="../images/hobbies/excercising/excercising.png">
   <!-- 运动消除了我的烦恼，使我的身体焕然一新，并给我勇气去应对任何挑战。我热爱健身、篮球。我非常喜欢挥洒汗水的感觉，那给我一种对于自己身体的掌控感。虽然我现在并没有大量的时间用于健身，但我仍然保持着运动的习惯。-->
   <p>Exercising eliminates my worries, revitalizes my body, and gives me the courage to face any challenge. I have a passion for fitness and basketball. I really enjoy the feeling of sweating it out, which gives me a sense of control over my body. Although I don't have a lot of time for fitness recently, I still maintain the habit of exercising.
   </p>
-  <img src="../images/hobbies/excercising/excercising.png">
 </div>
 
 <br>
