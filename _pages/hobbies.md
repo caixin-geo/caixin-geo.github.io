@@ -32,7 +32,7 @@ redirect_from:
 <br>
 <div> <!-- Cycling and Motor Cycling -->
   <h2 class="archive__item-title" itemprop="headline">Cycling and Motor Cycling</h2>
-  <img src="../images/hobbies/cycling/cycling.png">
+  <img src="../images/hobbies/cycling/cycling2.png">
   <!-- 对我而言，骑行总有着一种特殊的魔力。它给了我一种前进的感觉和在任何我想驻足的地方停留的机会。长途骑行让我能够从更大尺度上真实地感受更加广阔、多元的文化、人群、社会。18岁生日，我从重庆骑行到了昆明，19岁完成了川藏线的骑行，25岁生日骑着摩托车再度横穿了整个中国。这些经历为我提供了宝贵的精神价值。 -->
   <p>There is a special kind of magic in Cycling. It gives me a sense of moving forward and opportunities to stop wherever I want to linger. Long-distance cycling allows me to truly experience <strong>diverse cultures</strong>, <strong>people</strong>, and <strong>society</strong> on a larger scale and to develop a deeper understanding of the world. <li>On my 18th birthday, I cycled from Chongqing to Kunming（1100km）;</li><li>At 19, I completed the ride along the Sichuan-Tibet Highway(2400km);</li><li>On my 25th birthday, I crossed the entire China (4700km) on a motorcycle again.</li>
   <br>These experiences have provided me with invaluable spiritual value.
