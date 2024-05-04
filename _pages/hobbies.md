@@ -31,20 +31,20 @@ redirect_from:
 </div>
 
 <br>
-<div> <!-- Bodybuilding -->
-  <h2 class="archive__item-title" itemprop="headline">Exercising</h2>
-  <img src="../images/hobbies/excercising/excercising.png">
-  <!-- 运动消除了我的烦恼，使我的身体焕然一新，并给我勇气去应对任何挑战。我热爱健身、篮球。我非常喜欢挥洒汗水的感觉，那给我一种对于自己身体的掌控感。虽然我现在并没有大量的时间用于健身，但我仍然保持着运动的习惯。-->
-  <p>Exercising eliminates my worries, revitalizes my body, and gives me the courage to face any challenge. I have a passion for fitness and basketball. I really enjoy the feeling of sweating it out, which gives me a sense of control over my body. Although I don't have a lot of time for fitness recently, I still maintain the habit of exercising.
-  </p>
-</div>
-
-<br>
 <div> <!-- Volunteering -->
   <h2 class="archive__item-title" itemprop="headline">Volunteering</h2>
   <img src="../images/hobbies/volunteering/volunteer2.png">
   <!-- 我对志愿服务的热爱源于帮助他人带来的满足感和成就感。无论是参与校园活动、支教项目，还是在各种社区公益中提供帮助，这些经历都给我机会去深入了解一个我原本陌生的群体，让我更加理解和珍惜社会的多样性和复杂性。通过志愿服务，我不仅能够对社区做出实际贡献，还有机会结识来自不同背景的人们，这些都极大地丰富了我的人生视野。每次投身于志愿活动，我都能感受到自己的成长。-->
   <p>My passion for volunteering stems from the satisfaction and fulfillment that comes from helping others. Whether participating in campus events, volunteer teaching projects, or providing assistance in various community-related projects, these experiences have given me the opportunity to deeply understand groups that were once unfamiliar to me, enhancing my appreciation for the <strong>diversity and complexity of society</strong>. Through volunteering, I am able to make tangible contributions to the community and meet people from diverse backgrounds, all of which greatly enrich my perspective on life. Each time I engage in volunteer activities, I can feel my own growth.
+  </p>
+</div>
+
+<br>
+<div> <!-- Bodybuilding -->
+  <h2 class="archive__item-title" itemprop="headline">Exercising</h2>
+  <img src="../images/hobbies/excercising/excercising.png">
+  <!-- 运动消除了我的烦恼，使我的身体焕然一新，并给我勇气去应对任何挑战。我热爱健身、篮球。我非常喜欢挥洒汗水的感觉，那给我一种对于自己身体的掌控感。虽然我现在并没有大量的时间用于健身，但我仍然保持着运动的习惯。-->
+  <p>Exercising eliminates my worries, revitalizes my body, and gives me the courage to face any challenge. I have a passion for fitness and basketball. I really enjoy the feeling of sweating it out, which gives me a sense of control over my body. Although I don't have a lot of time for fitness recently, I still maintain the habit of exercising.
   </p>
 </div>
 
