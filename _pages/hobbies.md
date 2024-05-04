@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- “人生是一场体验”，是我一直以来都十分相信的一句话。这激励着我对世界始终充满好奇，体验更多彩的人生，既保持对身边事物的观察也勇于去探索更广阔的未至之境。 -->
 
-<p><span style="font-style: italic;"><strong>"Life is an experience" <strong></span>is a phrase I have always deeply believed in. <br>It motivates me to stay curious about the world, to experience a more colorful life, maintaining an observant attitude towards the things around me while also daring to explore the broader unknown.</p>
+<p><span style="font-style: italic;"><strong>"Life is an experience" </strong></span>is a phrase I have always deeply believed in. <br>It motivates me to stay curious about the world, to experience a more colorful life, maintaining an observant attitude towards the things around me while also daring to explore the broader unknown.</p>
 
 <br>
 <div> <!-- Cycling and Motor Cycling -->
