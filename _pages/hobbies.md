@@ -34,8 +34,7 @@ redirect_from:
   <h2 class="archive__item-title" itemprop="headline">Cycling and Motor Cycling</h2>
   <img src="../images/hobbies/cycling/cycling2.png">
   <!-- 对我而言，骑行总有着一种特殊的魔力。它给了我一种前进的感觉和在任何我想驻足的地方停留的机会。长途骑行让我能够从更大尺度上真实地感受更加广阔、多元的文化、人群、社会。18岁生日，我从重庆骑行到了昆明，19岁完成了川藏线的骑行，25岁生日骑着摩托车再度横穿了整个中国。这些经历为我提供了宝贵的精神价值。 -->
-  <p>There is a special kind of magic in Cycling. It gives me a sense of moving forward and opportunities to stop wherever I want to linger. Long-distance cycling allows me to truly experience <strong>diverse cultures</strong>, <strong>people</strong>, and <strong>society</strong> on a larger scale and to develop a deeper understanding of the world. <li>On my 18th birthday, I cycled from Chongqing to Kunming（1100km）;</li><li>At 19, I completed the ride along the Sichuan-Tibet Highway(2400km);</li><li>On my 25th birthday, I crossed the entire China (4700km) on a motorcycle again.</li>
-  <br>These experiences have provided me with invaluable spiritual value.
+  <p>There is a special kind of magic in Cycling. It gives me a sense of moving forward and opportunities to stop wherever I want to linger. Long-distance cycling allows me to truly experience <strong>diverse cultures</strong>, <strong>people</strong>, and <strong>society</strong> on a larger scale and to develop a deeper understanding of the world. <li>On my 18th birthday, I cycled from Chongqing to Kunming（1100km）;</li><li>At 19, I completed the ride along the Sichuan-Tibet Highway(2400km);</li><li>On my 25th birthday, I crossed the entire China (4700km) on a motorcycle again.</li>These experiences have provided me with invaluable spiritual value.
   </p>
 </div>
 
@@ -45,7 +44,7 @@ redirect_from:
   <!-- 运动消除了我的烦恼，使我的身体焕然一新，并给我勇气去应对任何挑战。我热爱健身、篮球。我非常喜欢挥洒汗水的感觉，那给我一种对于自己身体的掌控感。虽然我现在并没有大量的时间用于健身，但我仍然保持着运动的习惯。-->
   <p>Exercising eliminates my worries, revitalizes my body, and gives me the courage to face any challenge. I have a passion for fitness and basketball. I really enjoy the feeling of sweating it out, which gives me a sense of control over my body. Although I don't have a lot of time for fitness recently, I still maintain the habit of exercising.
   </p>
-  <img src="../images/500x300.png">
+  <img src="../images/hobbies/excercising/excercising.png">
 </div>
 
 <br>
