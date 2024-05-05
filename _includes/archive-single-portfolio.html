@@ -1,0 +1,85 @@
+{% include base_path %}<!-- 包含基础路径 -->
+
+{% if post.header.teaser %}<!-- 检查文章是否有摘要 -->
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}<!-- 如果有，将摘要内容存储在变量teaser中 -->
+{% else %}
+  {% assign teaser = site.teaser %}<!-- 如果没有，使用站点默认的摘要 -->
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %} <!-- 如果文章有id，则处理标题，去除标题中可能包含的HTML标签 -->
+{% else %}
+  {% assign title = post.title %}<!-- 如果没有id，则直接使用文章标题 -->
+{% endif %}
+
+
+<div class="{{ include.type | default: "list" }}__item"> <!-- 设置文章项的类别，如果未指定，默认为列表样式 -->
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 定义文章的结构和类型 -->
+    {% if include.type == "grid" and teaser %} <!-- 如果指定了grid样式，并且有摘要内容 -->
+    <!-- 如果摘要中包含网络链接 --><!-- 直接使用摘要链接 -->
+    <!-- 否则，将摘要视为本地图片链接，添加基础路径和images目录前缀 -->
+      <div class="archive__item-teaser"> 
+        <img src=
+          {% if teaser contains "://" %} 
+            "{{ teaser }}"
+          {% else %} 
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline"> <!-- 文章标题 -->
+      {% if post.link %} <!-- 如果文章有外部链接 -->
+        <!-- 显示标题和外部链接，并添加永久链接 -->
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}  
+        <!-- 如果没有外部链接，只显示标题和永久链接 -->
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+
+    <!-- 如果文章有摘要且站点未启用“阅读更多”功能 -->
+    {% if post.excerpt and site.read_more != 'enabled' %}
+        <!-- 显示文章摘要 -->
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        <div class="portfolio_container">
+            {% if post.img %}
+                <div class="portfolio_left"><img src="{{ post.img }}" alt="示例图片"></div>
+            {% endif %}
+            <div class="portfolio_right">
+                {% if post.keys %}
+                    <div class="portfolio_text">
+                        <p>{{ post.keys }}</p>
+                    </div>
+                {% endif %} 
+                <div class="downloads">
+                    {% if post.video %}
+                    <a href="{{ post.video }}" download>下载视频</a>
+                    {% endif %} 
+                    {% if post.pdf %}
+                        <a href="{{ post.pdf }}" download>下载PDF</a>
+                    {% endif %} 
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+
+
+
+
+    <!-- 如果文章有摘要且站点启用了“阅读更多”功能 -->
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+      <!-- 显示文章摘要和阅读更多链接 -->
+      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+      {% if post.img %}
+      <!-- 显示文章图片 -->
+      <img class='porfolio_img_intro' src='{{ post.img }}'>
+      {% endif %}
+    {% endif %}
+    
+
+

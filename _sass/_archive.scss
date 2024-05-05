@@ -253,6 +253,36 @@
   font-size: 0.8em;
 }
 
+.porfolio_container{
+  display: flex;
+  width: 100%;
+}
+
+.porfolio_left {
+  width: 40%;
+  padding: 20px;
+}
+
+.porfolio_leftimg {
+  width: 100%;
+  height: auto;
+}
+
+.porfolio_right {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.porfolio_text {
+  flex-grow: 1;
+}
+
+.porfolio_downloads_a {
+  margin-right: 10px;
+}
+
 
 
 
