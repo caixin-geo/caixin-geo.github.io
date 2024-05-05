@@ -247,39 +247,39 @@
 /*
    Portfolios
    ========================================================================== */
-.porfolio_img_intro{
+.portfolio_img_intro{
   width: 500px;
   border-radius: 10px;
   font-size: 0.8em;
 }
 
-.porfolio_container{
+.portfolio_container{
   display: flex;
   width: 100%;
 }
 
-.porfolio_left {
+.portfolio_left {
   width: 40%;
   padding: 20px;
 }
 
-.porfolio_leftimg {
+.portfolio_left img {
   width: 100%;
   height: auto;
 }
 
-.porfolio_right {
+.portfolio_right {
   width: 60%;
   padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
-.porfolio_text {
+.portfolio_text {
   flex-grow: 1;
 }
 
-.porfolio_downloads_a {
+.portfolio_downloads a {
   margin-right: 10px;
 }
 

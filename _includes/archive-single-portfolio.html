@@ -12,7 +12,6 @@
   {% assign title = post.title %}<!-- 如果没有id，则直接使用文章标题 -->
 {% endif %}
 
-
 <div class="{{ include.type | default: "list" }}__item"> <!-- 设置文章项的类别，如果未指定，默认为列表样式 -->
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 定义文章的结构和类型 -->
     {% if include.type == "grid" and teaser %} <!-- 如果指定了grid样式，并且有摘要内容 -->
@@ -47,18 +46,18 @@
             {% if post.img %}
                 <div class="portfolio_left"><img src="{{ post.img }}" alt="示例图片"></div>
             {% endif %}
-            <div class="portfolio_right">
+            <div class="porforlio_right">
                 {% if post.keys %}
                     <div class="portfolio_text">
                         <p>{{ post.keys }}</p>
                     </div>
                 {% endif %} 
-                <div class="downloads">
+                <div class="portfolio_downloads">
                     {% if post.video %}
-                    <a href="{{ post.video }}" download>下载视频</a>
+                        <a href="{{ post.video }}" download>下载视频</a>
                     {% endif %} 
                     {% if post.poster %}
-                    <a href="{{ post.poster }}" download>下载视频</a>
+                        <a href="{{ post.poster }}" download>下载海报</a>
                     {% endif %} 
                     {% if post.pdf %}
                         <a href="{{ post.pdf }}" download>下载PDF</a>
