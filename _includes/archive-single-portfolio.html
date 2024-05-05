@@ -44,25 +44,23 @@
         <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
         <div class="portfolio_container">
             {% if post.img %}
-                <div class="portfolio_left"><img src="{{ post.img }}" alt="示例图片"></div>
-            {% endif %}
-            <div class="porforlio_right">
-                {% if post.keys %}
-                    <div class="portfolio_text">
-                        <p>{{ post.keys }}</p>
-                    </div>
-                {% endif %} 
-                <div class="portfolio_downloads">
-                    {% if post.video %}
-                        <a href="{{ post.video }}" download>下载视频</a>
-                    {% endif %} 
-                    {% if post.poster %}
-                        <a href="{{ post.poster }}" download>下载海报</a>
-                    {% endif %} 
-                    {% if post.pdf %}
-                        <a href="{{ post.pdf }}" download>下载PDF</a>
-                    {% endif %} 
+                <div class="portfolio_left">
+                    <img src="{{ post.img }}" alt="示例图片">
                 </div>
+            {% endif %}
+            <div class="portfolio_right">
+                {% if post.keys %}
+                    <p>{{ post.keys }}</p>
+                {% endif %} 
+                {% if post.video %}
+                    <a href="{{ post.video }}" download>下载视频</a>
+                {% endif %} 
+                {% if post.poster %}
+                    <a href="{{ post.poster }}" download>下载海报</a>
+                {% endif %} 
+                {% if post.pdf %}
+                    <a href="{{ post.pdf }}" download>下载PDF</a>
+                {% endif %} 
             </div>
         </div>
     </article>

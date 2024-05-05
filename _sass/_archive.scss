@@ -254,34 +254,22 @@
 }
 
 .portfolio_container{
-  display: flex;
-  width: 100%;
+  width:100%;
 }
 
 .portfolio_left {
-  width: 40%;
-  padding: 20px;
-}
-
-.portfolio_left img {
-  width: 100%;
-  height: auto;
+  float:left;
+  width:30%;
+  background:#0000ff;
+  height:500px;
 }
 
 .portfolio_right {
-  width: 60%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+  margin-left:30%;
+  background:#ff0000;
+  height:500px;
 }
 
-.portfolio_text {
-  flex-grow: 1;
-}
-
-.portfolio_downloads a {
-  margin-right: 10px;
-}
 
 
 
