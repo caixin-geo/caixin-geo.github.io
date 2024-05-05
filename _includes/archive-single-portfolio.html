@@ -14,20 +14,6 @@
 
 <div class="{{ include.type | default: "list" }}__item"> <!-- 设置文章项的类别，如果未指定，默认为列表样式 -->
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 定义文章的结构和类型 -->
-    {% if include.type == "grid" and teaser %} <!-- 如果指定了grid样式，并且有摘要内容 -->
-    <!-- 如果摘要中包含网络链接 --><!-- 直接使用摘要链接 -->
-    <!-- 否则，将摘要视为本地图片链接，添加基础路径和images目录前缀 -->
-      <div class="archive__item-teaser"> 
-        <img src=
-          {% if teaser contains "://" %} 
-            "{{ teaser }}"
-          {% else %} 
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
     <h2 class="archive__item-title" itemprop="headline"> <!-- 文章标题 -->
       {% if post.link %} <!-- 如果文章有外部链接 -->
         <!-- 显示标题和外部链接，并添加永久链接 -->
