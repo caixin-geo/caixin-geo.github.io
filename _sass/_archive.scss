@@ -314,6 +314,10 @@
   order: 1
 }
 
+.paper-box .paper-box-text p {
+  font-size: 0.8em;
+}
+
 @media (min-width: 48em) {
   .paper-box .paper-box-image {
       justify-content:left;
