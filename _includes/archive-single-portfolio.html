@@ -57,6 +57,9 @@
                     {% if post.video %}
                     <a href="{{ post.video }}" download>下载视频</a>
                     {% endif %} 
+                    {% if post.poster %}
+                    <a href="{{ post.poster }}" download>下载视频</a>
+                    {% endif %} 
                     {% if post.pdf %}
                         <a href="{{ post.pdf }}" download>下载PDF</a>
                     {% endif %} 
@@ -66,20 +69,6 @@
     </article>
 </div>
 
-
-
-
-
-
-    <!-- 如果文章有摘要且站点启用了“阅读更多”功能 -->
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-      <!-- 显示文章摘要和阅读更多链接 -->
-      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-      {% if post.img %}
-      <!-- 显示文章图片 -->
-      <img class='porfolio_img_intro' src='{{ post.img }}'>
-      {% endif %}
-    {% endif %}
     
 
 
