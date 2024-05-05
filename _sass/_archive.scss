@@ -274,7 +274,39 @@
   background:#ff0000;
 }
 
+.portfolio-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px #efefef solid;
+  padding: 2em 0 2em 0;
+}
 
+.paper-box .paper-box-image {
+  justify-content: left;
+  min-width: 200px;
+  max-width: 40%;
+  order: 1;
+}
+
+.paper-box .paper-box-text {
+  max-width: 100%;
+  order: 1;
+}
+
+
+.badge {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  margin-top: .5em;
+  margin-left: -.5em;
+  color: white;
+  background-color: #00369f;
+  font-size: .8em;
+}
 
 
 
