@@ -83,7 +83,7 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
       {% if post.img %}
       <!-- 显示文章图片 -->
-      <img class='porfolio_img_intro' src='{{ post.img }}'>
+      <img class='portfolio_img_intro' src='{{ post.img }}'>
       {% endif %}
     <!-- 如果文章有摘要且站点启用了“阅读更多”功能 -->
     {% elsif post.excerpt and site.read_more == 'enabled' %}
@@ -91,7 +91,7 @@
       <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
       {% if post.img %}
       <!-- 显示文章图片 -->
-      <img class='porfolio_img_intro' src='{{ post.img }}'>
+      <img class='portfolio_img_intro' src='{{ post.img }}'>
       {% endif %}
     {% endif %}
     
