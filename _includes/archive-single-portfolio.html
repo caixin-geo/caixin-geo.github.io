@@ -50,22 +50,21 @@
                 </div>
             </div>
             <div class="paper-box-text">
-        
-            <p>title
-                <br>
-                {% if post.keys %}
-                    {{ post.keys }}
-                {% endif %} 
-                {% if post.video %}
-                    <a href="{{ post.video }}" download>下载视频</a>
-                {% endif %} 
-                {% if post.poster %}
-                    <a href="{{ post.poster }}" download>下载海报</a>
-                {% endif %} 
-                {% if post.pdf %}
-                    <a href="{{ post.pdf }}" download>下载PDF</a>
-                {% endif %} 
-            </p>
+                <p>title
+                    <br>
+                    {% if post.keys %}
+                        {{ post.keys }}
+                    {% endif %} 
+                    {% if post.video %}
+                        <a href="{{ post.video }}" download>下载视频</a>
+                    {% endif %} 
+                    {% if post.poster %}
+                        <a href="{{ post.poster }}" download>下载海报</a>
+                    {% endif %} 
+                    {% if post.pdf %}
+                        <a href="{{ post.pdf }}" download>下载PDF</a>
+                    {% endif %} 
+                </p>
           </div>
         </div>
     {% endif %}
