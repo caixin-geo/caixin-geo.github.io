@@ -37,14 +37,26 @@
                     <img src="{{ post.img }}" alt="sym" width="100%">
                     {% if post.video or post.poster or post.pdf %}
                         <p>|
+                            <!-- video -->
                             {% if post.video %}
                                 &nbsp;&nbsp;<a href="{{ post.video }}" target="_blank">Video</a>&nbsp;&nbsp;|
                             {% endif %} 
+                            <!-- poster -->
                             {% if post.poster %}
-                                &nbsp;&nbsp;<a href="{{ post.poster }}" target="_blank">Poster</a>&nbsp;&nbsp;|
-                            {% endif %} 
+                                {% if post.poster2 %}
+                                    &nbsp;&nbsp;<a href="{{ post.poster }}" target="_blank">Poster1</a>&nbsp;&nbsp;|
+                                    &nbsp;&nbsp;<a href="{{ post.poster2 }}" target="_blank">Poster2</a>&nbsp;&nbsp;|
+                                {% else %} 
+                                    &nbsp;&nbsp;<a href="{{ post.poster }}" target="_blank">Poster</a>&nbsp;&nbsp;|
+                                {% endif %} 
+                            {% endif %}
+                            <!-- pdf -->
                             {% if post.pdf %}
                                 &nbsp;&nbsp;<a href="{{ post.pdf }}" target="_blank">PDF</a>&nbsp;&nbsp;|
+                            {% endif %} 
+                            <!-- report -->
+                            {% if post.report %}
+                                &nbsp;&nbsp;<a href="{{ post.report }}" target="_blank">Report</a>&nbsp;&nbsp;|
                             {% endif %} 
                         </p>
                     {% else %}  
