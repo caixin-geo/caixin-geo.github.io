@@ -293,7 +293,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   border-bottom: 1px #efefef solid;
-  padding: 0 0 2em 0
+  padding: 0 0 2em 0;
 }
 
 .paper-box .paper-box-image {
@@ -307,7 +307,7 @@
 .paper-box .paper-box-image img {
   max-width: 400px;
   box-shadow: 3px 3px 6px #888;
-  object-fit: cover
+  object-fit: cover;
 }
 .paper-box .paper-box-image p {
   font-size: 0.8em;
@@ -316,7 +316,7 @@
 
 .paper-box .paper-box-text {
   max-width: 100%;
-  order: 1
+  order: 1;
 }
 
 .paper-box .paper-box-text p {
@@ -328,14 +328,14 @@
       justify-content:left;
       min-width: 200px;
       max-width: 40%;
-      order: 1
+      order: 1;
   }
 
   .paper-box .paper-box-text {
       justify-content: left;
       padding-left: 2em;
       max-width: 60%;
-      order: 2
+      order: 2;
   }
 }
 
@@ -345,7 +345,7 @@ h1:before,.anchor:before {
   position: relative;
   width: 0;
   height: 2em;
-  margin-top: -2em
+  margin-top: -2em;
 }
 
 .badge {
@@ -356,6 +356,6 @@ h1:before,.anchor:before {
   margin-left: -.5em;
   color: white;
   background-color: #00369f;
-  font-size: .8em
+  font-size: .8em;
 }
 
