@@ -15,7 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item"> <!-- 设置文章项的类别，如果未指定，默认为列表样式 -->
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> <!-- 定义文章的结构和类型 -->
     <h2 class="archive__item-title" itemprop="headline"> <!-- 文章标题 -->
-        {% if article== off %}   
+        {% if post.article==off %}   
             {{ title }}
         {% else %}
             {% if post.link %} <!-- 如果文章有外部链接 -->
