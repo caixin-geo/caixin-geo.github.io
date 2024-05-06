@@ -31,7 +31,9 @@
         <div class="paper-box">
             <div class="paper-box-image">
                 <div>
-                    <div class="badge">{{ post.award }}</div>
+                    {% if post.award %}
+                        <div class="badge">{{ post.award }}</div>
+                    {% endif %}
                     <img src="{{ post.img }}" alt="sym" width="100%">
                     {% if post.video or post.poster or post.pdf}
                         <p>|
