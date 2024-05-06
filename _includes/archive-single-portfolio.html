@@ -33,17 +33,20 @@
                 <div>
                     <div class="badge">NeurIPS 2019</div>
                     <img src="{{ post.img }}" alt="sym" width="100%">
-                    <p>
-                        {% if post.video %}
-                            |&nbsp;&nbsp;<a href="{{ post.video }}" target="_blank">Video</a>&nbsp;&nbsp;
-                        {% endif %} 
-                        {% if post.poster %}
-                            |&nbsp;&nbsp;<a href="{{ post.poster }}" target="_blank">Poster</a>&nbsp;&nbsp;
-                        {% endif %} 
-                        {% if post.pdf %}
-                            |&nbsp;&nbsp;<a href="{{ post.pdf }}" target="_blank">| PDF</a>&nbsp;&nbsp;
-                        {% endif %} 
-                    </p>
+                    {% if post.video or post.poster or post.pdf}
+                        <p>|
+                            {% if post.video %}
+                                &nbsp;&nbsp;<a href="{{ post.video }}" target="_blank">Video</a>&nbsp;&nbsp;|
+                            {% endif %} 
+                            {% if post.poster %}
+                                &nbsp;&nbsp;<a href="{{ post.poster }}" target="_blank">Poster</a>&nbsp;&nbsp;|
+                            {% endif %} 
+                            {% if post.pdf %}
+                                &nbsp;&nbsp;<a href="{{ post.pdf }}" target="_blank">| PDF</a>&nbsp;&nbsp;|
+                            {% endif %} 
+                        </p>
+                    {% else %}  
+                    {% endif %}
                 </div>
             </div>
             <div class="paper-box-text">
