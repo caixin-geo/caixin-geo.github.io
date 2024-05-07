@@ -60,14 +60,20 @@
           {% endif %}
 
           {% if post.collection=='publications' %}
+          <p>
             {% if post.authors %}
-              <p>{{ post.authors }}</p>
+              {{ post.authors }}
             {% endif %}
             {% if post.agency %}
-              <p>{{ post.agency }}</p>
+              <br>{{ post.agency }}
             {% endif %}
             {% if post.notes %}
-              <p>{{ post.notes }}</p>
+              <br>{{ post.notes }}
+          </p>
+</p>
+
+              <p></p>
+
             {% endif %}
           {% endif %}
 
