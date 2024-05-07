@@ -29,6 +29,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - Sept. 2016- Jun. 2020:
   <br>Bachelor in **Mechanical Engineering**, School of Mechanical Engineering, Shanghai JiaoTong University
 
+---
+
 # Awards and Scholars
 
 - Mar. 2024: **iF Design Award** (Communication/Apps/Software), iF Industrie Forum Design
