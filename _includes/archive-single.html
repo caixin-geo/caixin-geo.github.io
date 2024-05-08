@@ -91,6 +91,9 @@
     {% if post.excerpt and site.read_more != 'enabled' %}
       <!-- 显示文章摘要 -->
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% if post.intro %}
+          {{ post.intro }}
+      {% endif %}
       {% if post.img %}
       <!-- 显示文章图片 -->
       <img class='portfolio_img_intro' src='{{ post.img }}'>
