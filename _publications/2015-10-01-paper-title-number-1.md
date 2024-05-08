@@ -1,6 +1,6 @@
 ---
 title: "Chinese Characters Factory - Design of children's Chinese character construction enlightenment game based on augmented reality technology"
-linkOn: on
+linkOn: "on"
 link: "http://doi.org/10.54941/ahfe1002067"
 authors: "<strong>Xin Cai</strong>"
 agency: "Tareq Ahram and Christianne Falcão (eds) Human Factors in Virtual Environments and Game Design. AHFE (2022) International Conference. AHFE Open Access, vol 50. AHFE International, USA."
