@@ -73,11 +73,11 @@
             </div>
             <div class="paper-box-text">
                 <div>
-                    <p>
-                        {% if post.intro %}
+                    {% if post.intro %}
+                        <p>
                             {{ post.intro }}
-                        {% endif %} 
-                    </p> 
+                        </p> 
+                    {% endif %} 
                 </div>
 
           </div>
