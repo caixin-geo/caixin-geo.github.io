@@ -27,10 +27,10 @@ redirect_from:
 <br>
 <div> 
   <h2 class="archive__item-title" itemprop="headline">Gas Robot</h2>
-  <img height="360" src="../images/others/GasRobot/image (1).png">
-  <img height="360" src="../images/others/GasRobot/image (2).png">
-  <img height="360" src="../images/others/GasRobot/image.png">
-  <img height="360" src="../images/others/GasRobot/output.png">
+  <img style = "height:360" src="../images/others/GasRobot/image (1).png">
+  <img style = "height:360" src="../images/others/GasRobot/image (2).png">
+  <img style = "height:360" src="../images/others/GasRobot/image.png">
+  <img style = "height:360" src="../images/others/GasRobot/output.png">
   <p>
   </p>
 </div>
@@ -38,10 +38,10 @@ redirect_from:
 <br>
 <div> 
   <h2 class="archive__item-title" itemprop="headline">Ball Robot</h2>
-  <img height="360" src="../images/others/BallRobot/image (3).png">
-  <img height="360" src="../images/others/BallRobot/image (4).png">
-  <img height="360" src="../images/others/BallRobot/image (5).png">
-  <img height="360" src="../images/others/BallRobot/image (6).png">
+  <img style = "height:360" src="../images/others/BallRobot/image (3).png">
+  <img style = "height:360" src="../images/others/BallRobot/image (4).png">
+  <img style = "height:360" src="../images/others/BallRobot/image (5).png">
+  <img style = "height:360" src="../images/others/BallRobot/image (6).png">
   <video height="360" controls><source src="../images/others/BallRobot/BallRobot.mp4" type="video/mp4">Your browser does not support the video tag.</video>
   <p>
   </p>
