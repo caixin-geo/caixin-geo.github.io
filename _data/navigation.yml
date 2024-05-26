@@ -21,6 +21,9 @@ main:
   - title: "Work"
     url: /work/
 
+  - title: "Skills"
+    url: /skills/
+
   - title: "Hobbies"
     url: /hobbies/
 

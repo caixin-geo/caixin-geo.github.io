@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-# Current
+<!-- # Current
 
-I am looking for a Ph.D position or RA chance in HCI.
+I am looking for a Ph.D position or RA chance in HCI. -->
 
 # About me
 
